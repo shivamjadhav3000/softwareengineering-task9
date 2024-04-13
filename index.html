@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apple Company Web Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #f1c40f;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+    }
+    nav a:hover {
+        color: #f39c12;
+    }
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">About</a>
+    </nav>
+</header>
+<main>
+    <h1>Welcome to Apple</h1>
+    <div>
+        <img src="apple-product.jpg" alt="Apple Product">
+        <p>Description of Apple product goes here.</p>
+    </div>
+    <div>
+        <h2>Product Details</h2>
+        <p>More specific details about the Apple product.</p>
+    </div>
+    <div>
+        <h2>Form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</main>
+<footer>
+    &copy; 2021 Apple Inc.
+</footer>
+<script>
+    // Any JavaScript functionality can be added here
+</script>
+</body>
+</html>
